@@ -49,7 +49,7 @@ npm start
 4. Install the frontend dependencies and start the Angular development server:
 
 ```
-cd frontend
+cd movierentalstore
 npm install
 ng serve
 ```
