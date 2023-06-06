@@ -46,7 +46,10 @@ const routes: Routes = [
     path: 'genres-tv/:id/:name',
     loadChildren: () => import('./components/tv-genre/tv-genre.module').then(m => m.TvGenreModule)
   },
-
+  {
+    path: 'login',
+    loadChildren: () => import('./components/login/login.module').then(mod => mod. LoginModule)
+  },
   {
     path: '**',
     redirectTo: ''

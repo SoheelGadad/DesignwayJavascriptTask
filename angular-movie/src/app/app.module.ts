@@ -15,6 +15,8 @@ import { PipeModule } from './pipe/pipe.module';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { SkeletonModule } from './shared/skeleton/skeleton.module';
+import { LoginComponent } from './components/login/login.component';
+import { SignupComponent } from './components/signup/signup.component';
 
 
 @NgModule({
@@ -24,6 +26,8 @@ import { SkeletonModule } from './shared/skeleton/skeleton.module';
     SliderComponent,
     HomeComponent,
     FooterComponent,
+    LoginComponent,
+    SignupComponent,
   ],
 
   imports: [
